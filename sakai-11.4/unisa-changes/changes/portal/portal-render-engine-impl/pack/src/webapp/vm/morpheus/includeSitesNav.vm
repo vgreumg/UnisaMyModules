@@ -3,7 +3,7 @@
     <div id="show-all-sites" tabindex="-1"><i class="fa fa-angle-double-left"></i><span>${rloader.sit_more}</span></div>
     <div id="topnav_container">
         <ul class="Mrphs-sitesNav__menu" id="topnav" role="menubar" aria-label="${rloader.sit_worksiteshead}">
-
+            <div class="navbar-brand"><span class="ci-yellow-text">My Modules</span></div>
             #foreach ( $site in $tabsSites.tabsSites )
 
         		 #if (${site.isMyWorkspace})
